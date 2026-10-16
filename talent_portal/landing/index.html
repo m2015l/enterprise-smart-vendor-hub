@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Banco de Talentos — Enterprise Vendor Hub</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <span class="logo">Enterprise Vendor Hub</span>
+      <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#candidatura">Candidate-se</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Faça parte do Banco de Talentos do Enterprise Vendor Hub</h1>
+        <p>
+          Envie seu currículo e fique à frente na fila quando surgirem
+          oportunidades alinhadas ao seu perfil.
+        </p>
+        <a href="#candidatura" class="btn btn-primary">Candidatar-se agora</a>
+      </div>
+    </section>
+
+    <section id="sobre" class="about">
+      <div class="container">
+        <h2>Como funciona</h2>
+        <div class="about-grid">
+          <div class="about-card">
+            <h3>1. Envie seus dados</h3>
+            <p>Preencha o formulário com suas informações e currículo em PDF.</p>
+          </div>
+          <div class="about-card">
+            <h3>2. Análise automática</h3>
+            <p>Extraímos suas competências e senioridade a partir do currículo.</p>
+          </div>
+          <div class="about-card">
+            <h3>3. Você entra no radar</h3>
+            <p>Seu perfil fica disponível para as oportunidades do Enterprise Vendor Hub.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="candidatura" class="application">
+      <div class="container">
+        <h2>Candidate-se</h2>
+
+        <form id="candidate-form" novalidate>
+          <div class="field">
+            <label for="name">Nome completo</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+
+          <div class="field">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="field">
+            <label for="cpf">CPF</label>
+            <input
+              type="text"
+              id="cpf"
+              name="cpf"
+              inputmode="numeric"
+              placeholder="000.000.000-00"
+              required
+            />
+          </div>
+
+          <div class="field">
+            <label for="resume">Currículo (PDF, até 5 MB)</label>
+            <input type="file" id="resume" name="resume" accept="application/pdf" required />
+          </div>
+
+          <div class="field field-checkbox">
+            <input type="checkbox" id="consent" name="consent" required />
+            <label for="consent">
+              Autorizo o tratamento dos meus dados pessoais para participação
+              no banco de talentos do Enterprise Vendor Hub.
+            </label>
+          </div>
+
+          <button type="submit" class="btn btn-primary" id="submit-btn">
+            Enviar candidatura
+          </button>
+
+          <p id="form-message" class="form-message" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Enterprise Vendor Hub. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

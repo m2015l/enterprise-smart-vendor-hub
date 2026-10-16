@@ -1,0 +1,11 @@
+id,nome,stack,senioridade,disponibilidade,fornecedor_origem,score_aderencia,opt_in_comunidade
+1,Bruno Carvalho,AWS/Azure,Especialista,Alocado (indisponível),KonnectCorp,71,Sim
+2,Henrique Lima,FinOps,Especialista,15 dias,LumenConsulting,72,Sim
+3,Camila Ferreira,FinOps,Pleno,30 dias,MeridiIT,76,Sim
+4,Karina Duarte,SAP FI/CO,Pleno,15 dias,NimbusGroup,69,Sim
+5,Felipe Andrade,Observabilidade (Datadog/Grafana),Júnior,Alocado (indisponível),OpusTech,81,Sim
+6,Gabriela Nunes,Kubernetes/DevOps,Júnior,15 dias,KonnectCorp,81,Sim
+7,Diego Martins,SAP ABAP,Especialista,Alocado (indisponível),CintraSoftware,55,Não
+8,Elaine Rocha,Kubernetes/DevOps,Especialista,15 dias,HelixDigital,86,Sim
+9,Isabela Cardoso,Power BI/Dados,Júnior,Alocado (indisponível),OrbisTech,76,Sim
+10,João Pedro Alves,AWS/Azure,Especialista,15 dias,LumenGroup,94,Sim

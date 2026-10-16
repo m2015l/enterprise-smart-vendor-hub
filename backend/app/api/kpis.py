@@ -1,0 +1,1 @@
+"""KPI routes placeholder."""

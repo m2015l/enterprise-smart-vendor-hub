@@ -1,0 +1,1 @@
+"""Body shop routes placeholder."""

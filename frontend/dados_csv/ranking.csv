@@ -1,0 +1,6 @@
+﻿posicao,nome,tipo,score,competencias_atendidas,competencias_faltantes,experiencia,justificativa
+1,Beatriz Martins,Candidato,96,"Python, Machine Learning, TensorFlow, AWS",Nenhuma,6 anos,"Alta aderência aos requisitos da vaga, com experiência sólida em Python e Machine Learning."
+2,João Silva,Candidato,94,"Python, SQL, Docker",AWS,5 anos,"Perfil bastante aderente aos requisitos técnicos, com pequena lacuna em infraestrutura cloud."
+3,Ana Costa,Candidato,91,"Python, Machine Learning, SQL",Docker,4 anos,Excelente aderência técnica e experiência relevante em ciência de dados.
+4,Rafael Mendes,Candidato,88,"Python, SQL","APIs, Docker",5 anos,"Boa experiência em dados, mas possui lacunas em desenvolvimento de aplicações."
+5,Carlos Souza,Candidato,87,"Python, SQL, AWS",Docker,6 anos,"Perfil experiente e tecnicamente consistente, com boa experiência em backend."

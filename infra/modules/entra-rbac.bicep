@@ -1,0 +1,1 @@
+// Entra RBAC module placeholder

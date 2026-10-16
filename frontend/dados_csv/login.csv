@@ -1,0 +1,5 @@
+username,email,password,type_of_user
+admin_demo,admin@example.com,demo_admin_pass,Administrador
+exec_demo,executive@example.com,demo_exec_pass,Executivo
+ops_demo,operations@example.com,demo_ops_pass,Operacional
+analyst_demo,analyst@example.com,demo_analyst_pass,Operacional

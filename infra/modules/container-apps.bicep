@@ -1,0 +1,1 @@
+// Container Apps module placeholder

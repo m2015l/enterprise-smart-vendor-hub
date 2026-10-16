@@ -1,0 +1,4 @@
+# Frontend dependencies placeholder
+streamlit
+streamlit-chat
+pandas
